@@ -1,0 +1,154 @@
+body, table td {
+    font-family: verdana, serif;
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+a, a:visited {
+    color: #3E4DFF;
+    font-family: verdana, serif;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8980FF;
+    text-decoration: underline;
+}
+
+body {
+    background: url(../images/bg2.gif) no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: verdana, serif;
+    font-size: 18px;
+}
+
+table {
+    margin-left: 0;
+}
+
+.headerimage {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.menu, .menu:visited {
+    display: block;
+    color: #333;
+    font-family: verdana, serif;
+    font-size: 10px;
+    text-decoration: none;
+    float: left;
+    padding: 20px 13px;
+    background: url(../images/menu_sep.gif) no-repeat right center;
+    font-weight: bold;
+}
+
+.menu:hover {
+    color: black;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    filter: alpha(opacity=30);
+    opacity: .5;
+}
+
+.muziektabel {
+    cursor: pointer;
+}
+
+.nummerimage {
+    margin-right: 5px;
+}
+
+#afspelen {
+    padding: 5px;
+    border: 1px solid #DDDDDD;
+    width: 250px;
+    position: absolute;
+    height: 30px;
+    margin-left: 250px;
+}
+
+#content {
+    font-family: verdana, serif;
+    font-size: 11px;
+    margin-left: 25px;
+    margin-top: 25px;
+    max-width: 800px;
+    min-width: 400px;
+    _height: 420px;
+    min-height: 420px;
+}
+
+#footer {
+    font-family: verdana, serif;
+    font-size: 9px;
+    color: #666666;
+    margin: 25px;
+}
+
+#info td {
+    padding: 8px 3px 8px 0;
+}
+
+#links td {
+    height: 22px;
+}
+
+#menu {
+    font-family: verdana, serif;
+    font-size: 10px;
+    min-width: 400px;
+    max-width: 800px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+#nummer {
+    padding: 5px;
+    border: 1px solid #DDDDDD;
+    width: 200px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+/****************/
+/* Gallery page */
+/****************/
+
+.gallery {
+    margin-bottom: 20px;
+}
+
+.gallery a {
+    float: left;
+    display: block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin: 0 15px 15px 0;
+}
+
+.gallery.videos a img {
+    margin: -5px 0 0 -48px;
+    max-height: 110px;
+}
+
+/* Magnefic iframe description */
+iframe ~ .mfp-title {
+    position: absolute;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #F3F3F3;
+}
