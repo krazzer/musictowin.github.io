@@ -52,7 +52,7 @@
         function checkstat(a,v){var set=new Array();if(typeof v=="string")
         {set[0]=parseInt(v.substring(0,1))}else{set[0]=(v==3||v==4)?0:1}
             var jv,sz,sc,i;js="";var td=new Date();var tm=td.getTime();
-            var s=screen;var d=document;var l="http://checkstat.nl/cgi-bin/";
+            var s=screen;var d=document;var l="https://checkstat.nl/cgi-bin/";
             var lo=d.URL;var n=navigator;var re=typeof(top.document)=="object"?
                 top.document.referrer:d.referrer;for(i=0;i<=5;i++)
             {d.write('<script language="javascript1.'+i+'">js="'+i+'"<\/script>')}
@@ -66,10 +66,10 @@
                 'height=1 src="'+l+'count.cgi?'+a+ar+'">')}}checkstat('musictowin','110')
     </script>
     <noscript>
-        <a href="http://checkstat.nl/cgi-bin/show.cgi?musictowin"
+        <a href="https://checkstat.nl/cgi-bin/show.cgi?musictowin"
            target=_blank>
             <img name=icon width=19 height=19
-                 src="http://checkstat.nl/cgi-bin/count.cgi?musictowin"
+                 src="https://checkstat.nl/cgi-bin/count.cgi?musictowin"
                  border=0 alt=CheckStat>
         </a>
     </noscript></div>
